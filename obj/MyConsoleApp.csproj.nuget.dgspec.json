@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/franky/Documents/project/MyConsoleApp/MyConsoleApp.csproj": {}
+    "D:\\Users\\Franky\\Documents\\Projects\\SmashUtils\\MyConsoleApp.csproj": {}
   },
   "projects": {
-    "/Users/franky/Documents/project/MyConsoleApp/MyConsoleApp.csproj": {
+    "D:\\Users\\Franky\\Documents\\Projects\\SmashUtils\\MyConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/franky/Documents/project/MyConsoleApp/MyConsoleApp.csproj",
+        "projectUniqueName": "D:\\Users\\Franky\\Documents\\Projects\\SmashUtils\\MyConsoleApp.csproj",
         "projectName": "MyConsoleApp",
-        "projectPath": "/Users/franky/Documents/project/MyConsoleApp/MyConsoleApp.csproj",
-        "packagesPath": "/Users/franky/.nuget/packages/",
-        "outputPath": "/Users/franky/Documents/project/MyConsoleApp/obj/",
+        "projectPath": "D:\\Users\\Franky\\Documents\\Projects\\SmashUtils\\MyConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Franky\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Franky\\Documents\\Projects\\SmashUtils\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/franky/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Franky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -59,12 +67,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
